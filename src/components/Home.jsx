@@ -10,6 +10,7 @@ import Cardcarousel from './Cardcarousel';
 import FAQ from './FAQ'
 import Gmap from './Gmap'
 // import Form from './Form'
+import './Form.css'
 import Footer from './Footer'
 import { useState } from 'react';
 
