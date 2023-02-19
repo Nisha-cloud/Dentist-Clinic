@@ -1,0 +1,44 @@
+.pat{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    width: 100vw;
+   
+}
+.patient-container{
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+   
+}
+
+.pre-btn, .next-btn{
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-btn{
+    right: 0;
+
+}
+
+.next-btn, .pre-btn{
+    font-size: 50px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

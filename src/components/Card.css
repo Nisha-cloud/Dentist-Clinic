@@ -1,0 +1,63 @@
+.cardi{
+    width: 25vw;
+    height: 50vh;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.desc{
+    height: 30vh;
+    /* width: 25vw; */
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vh;
+    font-size: 100%;
+
+}
+
+
+
+.pname{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: baseline; */
+    /* margin-top: 10vh; */
+    font-size: 127%;
+    font-weight: 600;
+    margin: 10px;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+   .cardi{
+
+    width: 20rem;
+    height: 25rem;
+    border: 2px solid red;
+    display: flex;
+    
+   }
+   .content{
+    min-width: 18rem;
+    text-align: center;
+    margin-top: 1rem;
+    min-height: 18rem;
+
+   }
+   
+  }

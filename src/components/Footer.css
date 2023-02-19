@@ -1,0 +1,31 @@
+.foot{
+    
+    background-color: #673e26;
+    color: #e1dfdf;
+    width: 100vw;
+    height: 4vh;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .foot{
+      transform: translateY(200px);
+      min-height: 7vh;
+    }
+    .copy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* margin-top: 50px; */
+        padding-top: 0.5rem;
+        
+        
+    }
+  }

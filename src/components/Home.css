@@ -1,0 +1,62 @@
+.all{
+    /* display: flex; */
+    background-image: url('./images/bg-nav.jpg');
+    width: 100vw;
+    height: 100vh;
+    
+}
+.mainpic_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* width: 40vw; */
+    margin-right: 3rem;
+    /* background-color: brown; */
+
+}
+@media only screen and (max-width: 600px) {
+    .all {
+      background-color:#F0DECB;
+      background-image: url('./images/GD-LP-Banner-Mobile.jpg');
+      /* background-image: none; */
+      /* min-height: 540px;  */
+      height: 158vh;
+      width: 100vw; 
+      background-repeat: no-repeat;
+    text-align: center;
+    /* background-size: cover; */
+      margin: 0;
+      padding: 0;
+      /* padding-top: 80px; */
+      /* position: absolute; */
+      overflow: hidden;
+      background-size: contain;
+    }
+    .forme{
+        /* display: none; */
+        min-width: 100vw;
+        /* border: 2px solid red; */
+        margin: 0;
+        /* margin-left: 2vw; */
+        padding: 0;
+        /* margin-top: 80vh; */
+        transform: translateY(73vh);
+        /* padding-left: 1px; */
+        
+    }
+    .mainpic_right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
+   
+  
+
+  }
+
+ 
+
+
+

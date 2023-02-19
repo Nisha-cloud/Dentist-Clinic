@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ser{
+    width: 100vw;
+    height: 153vh;
+    
+  
+    /* background-color: beige; */
+    
+}
+.vic p{
+    margin: 0;
+    padding: 0;
+}
+.vic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .vic{
+    height: 10vh;
+    background-color: blue;
+} */
+
+#feat{
+    font-size: 300%;
+    font-weight:500;
+    
+}
+#dent{
+    font-size: 300%;
+    font-weight:500;
+    transform: translateY(-2.5vh);
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    
+}
+.listit{
+    margin-left: 10vw;
+    margin-top: 2vh;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.first{
+    width: 22vw;
+    height: 7vh;
+    background-color: rgb(209, 155, 209);
+    /* border-radius: 30%; */
+    /* border: 2px black; */
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.second{
+    width: 22vw;
+    height: 7vh;
+    background-color: rgb(209, 155, 209);
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+
+}
+
+
+ .parrot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+    height: 1vh;
+    
+    
+}
+.nisha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    margin-left: 35vw;
+    margin-bottom: 130vh;
+    /* margin-top: 20vh; */
+}
+
+
+
+
+    
+
+
+ 
+
+
+
+  
+
+
+
+#name{
+    font-size: 30px;
+    font-weight:500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    /* margin-left: 8vh;
+    width: 500px;  */
+
+}
+
+/* #para{
+    font-size: 100%;
+    font-weight:400;
+    margin-top: 2vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     transform: translateY(-2.5vh); 
+} */
+
+@media only screen and (max-width: 600px) {
+   .listit{
+    display: none;
+   }
+   .nisha{
+    display: inline-block;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+
+
+
+   }
+
+   .nisha img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+min-width: 20rem;
+    min-height: 15rem;
+    border-radius: 10%;
+    margin-left: -9.5rem;
+    margin-top: 0.5rem;
+    transform: translateY(54rem);
+    
+    
+   }
+   .write{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+   }
+
+   #name{
+    display: flex;
+    margin-left: -7rem;
+    transform: translateY(55rem);
+    width: 30rem;
+
+   }
+   #para{
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   width: 20rem;
+   text-align: center;
+    margin-left: -7rem;
+    transform: translateY(56rem);
+    border: 2px solid #f6841f;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 10px;position: relative;
+    /* min-height: 8rem; */
+
+   }
+
+
+  }
+
+
