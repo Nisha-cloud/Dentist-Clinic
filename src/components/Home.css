@@ -1,6 +1,8 @@
 .all{
     /* display: flex; */
     background-image: url('./images/bg-nav.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 100vw;
     height: 100vh;
     
