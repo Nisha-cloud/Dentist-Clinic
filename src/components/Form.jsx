@@ -12,10 +12,7 @@ const Form = () => {
     }]
       const [credentials, setCredentials] = useState(initial)
 
-    const onSubmit = (e) => {
-        e.preventDefault()
-
-    }
+  
     const onChange = (e) => {
         setCredentials({...credentials, [e.target.name]:e.target.value})
     
